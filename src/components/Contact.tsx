@@ -74,7 +74,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                  href="https://linkedin.com/in/mohamed-bakr"
+                  href="https://www.linkedin.com/in/mohamed-bakr-6641b1376?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BteWrdxsKRNWgivKMwzCpdg%3D%3D"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 bg-gradient-to-r from-blue-50 to-cyan-50 dark:from-gray-700 dark:to-gray-600 rounded-lg hover:shadow-lg transition-all hover:scale-105 group"
@@ -101,7 +101,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <div className="text-sm text-gray-500 dark:text-gray-400">GitHub</div>
-                    <div className="text-gray-900 dark:text-white font-medium">@bakrm1921</div>
+                    <div className="text-gray-900 dark:text-white font-medium">Mohamed Bakr</div>
                   </div>
                 </a>
 
