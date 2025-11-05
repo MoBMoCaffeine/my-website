@@ -103,7 +103,7 @@ export default function Projects() {
 
                   <div className="flex gap-4">
                     <a
-                      href={Projects.codeLink}
+                      href= {project.codeLink}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-600 to-cyan-500 text-white rounded-lg hover:shadow-lg hover:shadow-blue-500/50 transition-all hover:scale-105"
@@ -112,7 +112,7 @@ export default function Projects() {
                       <span>{language === 'en' ? 'Code' : 'الكود'}</span>
                     </a>
                     <a
-                      href={Projects.demoLink}
+                      href= {project.demoLink}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-2 px-4 py-2 border-2 border-blue-600 dark:border-cyan-500 text-blue-600 dark:text-cyan-400 rounded-lg hover:bg-blue-50 dark:hover:bg-gray-700 transition-all hover:scale-105"
