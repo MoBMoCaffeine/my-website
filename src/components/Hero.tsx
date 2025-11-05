@@ -59,7 +59,7 @@ export default function Hero() {
 
           <div className="flex items-center justify-center gap-6 animate-in fade-in delay-600">
             <a
-              href="https://github.com/bakrm1921"
+              href="https://github.com/MoBMoCaffeine"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-blue-900/30 hover:scale-110 transition-all"
@@ -68,7 +68,7 @@ export default function Hero() {
               <Github className="w-6 h-6" />
             </a>
             <a
-              href="https://linkedin.com/in/mohamed-bakr"
+              href="https://www.linkedin.com/in/mohamed-bakr-6641b1376?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BteWrdxsKRNWgivKMwzCpdg%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-blue-900/30 hover:scale-110 transition-all"
