@@ -34,6 +34,9 @@ export default function Projects() {
       tech: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
       color: 'from-teal-500 to-teal-600',
       gradient: 'from-teal-500/10 to-emerald-500/10',
+
+       codeLink: 'https://github.com/MoBMoCaffeine/EcommerceWebPage',
+      demoLink: 'https://rad-moonbeam-5a4db6.netlify.app/'
     },
     {
       title: language === 'en' ? 'Custom C++ Container (STL Simulation)' : 'حاوية C++ مخصصة (محاكاة STL)',
@@ -44,6 +47,9 @@ export default function Projects() {
       tech: ['C++', 'OOP', 'Templates', 'Data Structures'],
       color: 'from-emerald-500 to-emerald-600',
       gradient: 'from-emerald-500/10 to-green-500/10',
+
+      codeLink: 'https://github.com/MoBMoCaffeine/handMadeVector',
+      demoLink: 'https://github.com/MoBMoCaffeine/handMadeVector/blob/main/Vec.h'
     },
   ];
 
@@ -97,7 +103,7 @@ export default function Projects() {
 
                   <div className="flex gap-4">
                     <a
-                      href="https://github.com/MoBMoCaffeine/handMadeVector"
+                      href={Projects.codeLink}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-600 to-cyan-500 text-white rounded-lg hover:shadow-lg hover:shadow-blue-500/50 transition-all hover:scale-105"
@@ -106,7 +112,7 @@ export default function Projects() {
                       <span>{language === 'en' ? 'Code' : 'الكود'}</span>
                     </a>
                     <a
-                      href="https://github.com/bakrm1921"
+                      href={Projects.demoLink}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-2 px-4 py-2 border-2 border-blue-600 dark:border-cyan-500 text-blue-600 dark:text-cyan-400 rounded-lg hover:bg-blue-50 dark:hover:bg-gray-700 transition-all hover:scale-105"
