@@ -97,7 +97,7 @@ export default function Projects() {
 
                   <div className="flex gap-4">
                     <a
-                      href="https://github.com/bakrm1921"
+                      href="https://github.com/MoBMoCaffeine/handMadeVector"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-600 to-cyan-500 text-white rounded-lg hover:shadow-lg hover:shadow-blue-500/50 transition-all hover:scale-105"
