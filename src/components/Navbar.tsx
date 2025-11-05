@@ -47,7 +47,7 @@ export default function Navbar() {
               onClick={() => scrollToSection('#home')}
               className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent hover:scale-105 transition-transform"
             >
-              MB
+              MoBMo
             </button>
           </div>
 
