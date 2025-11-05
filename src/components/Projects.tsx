@@ -125,7 +125,7 @@ export default function Projects() {
 
         <div className="mt-12 text-center animate-in fade-in delay-600">
           <a
-            href="https://github.com/bakrm1921"
+            href="https://github.com/MoBMoCaffeine?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-3 border-2 border-blue-600 dark:border-cyan-500 text-blue-600 dark:text-cyan-400 rounded-lg hover:bg-blue-50 dark:hover:bg-gray-800 transition-all hover:scale-105"
