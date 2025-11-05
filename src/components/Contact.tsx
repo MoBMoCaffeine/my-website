@@ -91,7 +91,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                  href="https://github.com/bakrm1921"
+                  href="https://github.com/MoBMoCaffeine"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 bg-gradient-to-r from-blue-50 to-cyan-50 dark:from-gray-700 dark:to-gray-600 rounded-lg hover:shadow-lg transition-all hover:scale-105 group"
