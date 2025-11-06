@@ -48,8 +48,8 @@ export default function Hero() {
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
             <a
-              href="/cv.pdf"
-              download
+              href="/Mohamed Bakr_cv.pdf"
+              download="Mohamed Bakr_cv.pdf"
               className="px-8 py-3 border-2 border-blue-600 dark:border-cyan-500 text-blue-600 dark:text-cyan-400 rounded-lg hover:bg-blue-50 dark:hover:bg-gray-800 transition-all hover:scale-105 flex items-center gap-2"
             >
               <Download className="w-5 h-5" />

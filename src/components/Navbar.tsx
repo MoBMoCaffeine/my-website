@@ -45,9 +45,13 @@ export default function Navbar() {
           <div className="flex-shrink-0">
             <button
               onClick={() => scrollToSection('#home')}
-              className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent hover:scale-105 transition-transform"
+              className="h-12 hover:scale-105 transition-transform"
             >
-              MoBMo
+              <img
+                src="/MBM-removebg-preview.png"
+                alt="Mohamed Bakr Logo"
+                className="h-full object-contain"
+              />
             </button>
           </div>
 
