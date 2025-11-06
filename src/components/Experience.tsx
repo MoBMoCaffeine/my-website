@@ -136,7 +136,7 @@ export default function Experience() {
             {language === 'en' ? 'NTI Certification in Web Development' : 'شهادة NTI في تطوير الويب'}
           </h3>
           <p className="text-blue-100 mb-2">
-            {language === 'en' ? 'National Telecommunications Institute, Cairo' : 'المعهد القومي للاتصالات، القاهرة'}
+            {language === 'en' ? 'National Telecommunications Institute, Qina' : 'المعهد القومي للاتصالات، قنا'}
           </p>
           <p className="text-blue-50">
             {language === 'en' ? 'Completed: 2025 | Rating: soon....' : 'مكتملة: 2025 | التقييم: قريبا...'}
