@@ -14,6 +14,9 @@ export default function Projects() {
       tech: ['HTML5', 'CSS3', 'JavaScript', 'Responsive Design'],
       color: 'from-blue-500 to-blue-600',
       gradient: 'from-blue-500/10 to-cyan-500/10',
+
+      codeLink: 'https://github.com/MoBMoCaffeine/Responsive_Delivery_website',
+      demoLink: ' https://mobmocaffeine.github.io/Responsive_Delivery_website/'
     },
     {
       title: language === 'en' ? 'Health Checkup Booking System' : 'نظام حجز الفحوصات الطبية',
