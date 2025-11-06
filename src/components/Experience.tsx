@@ -139,7 +139,7 @@ export default function Experience() {
             {language === 'en' ? 'National Telecommunications Institute, Cairo' : 'المعهد القومي للاتصالات، القاهرة'}
           </p>
           <p className="text-blue-50">
-            {language === 'en' ? 'Completed: 2025 | Rating: Excellent' : 'مكتملة: 2025 | التقييم: ممتاز'}
+            {language === 'en' ? 'Completed: 2025 | Rating: soon....' : 'مكتملة: 2025 | التقييم: قريبا...'}
           </p>
         </div>
       </div>
