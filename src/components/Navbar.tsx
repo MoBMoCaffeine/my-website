@@ -52,7 +52,7 @@ export default function Navbar() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? 'bg-white/90 dark:bg-gray-900/90 backdrop-blur-md shadow-lg'
+          ? 'bg-white/70 dark:bg-gray-900/70 backdrop-blur-md shadow-lg'
           : 'bg-transparent'
       }`}
     >
@@ -61,7 +61,7 @@ export default function Navbar() {
           <div className="flex-shrink-0">
             <button
               onClick={() => scrollToSection('#home')}
-              className="h-16 hover:scale-110 transition-transform"
+              className="h-24 hover:scale-110 transition-transform duration-300"
             >
               <img
                 src="/MBM-removebg-preview.png"

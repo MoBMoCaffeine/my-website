@@ -1,4 +1,5 @@
 import { AppProvider } from './contexts/AppContext';
+import AnimatedBackground from './components/AnimatedBackground';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -11,7 +12,8 @@ import Footer from './components/Footer';
 function App() {
   return (
     <AppProvider>
-      <div className="min-h-screen">
+      <AnimatedBackground />
+      <div className="min-h-screen relative z-10">
         <Navbar />
         <Hero />
         <About />
